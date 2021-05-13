@@ -45,7 +45,7 @@ const variantMapping = {
   subtitle1: 'h3',
 };
 
-function Typography(props) {
+function Typography(props: any) {
   const { children, classes, marked = false, variant, ...other } = props;
 
   return (

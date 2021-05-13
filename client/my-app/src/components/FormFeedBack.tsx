@@ -9,11 +9,11 @@ const styles = (theme : any) => ({
     padding: theme.spacing(2),
   },
   error: {
-    backgroundColor: theme.palette.error.xLight,
+    backgroundColor: theme.palette.error,
     color: theme.palette.error.dark,
   },
   success: {
-    backgroundColor: theme.palette.success.xLight,
+    backgroundColor: theme.palette.success,
     color: theme.palette.success.dark,
   },
 });
@@ -27,7 +27,7 @@ function FormFeedback(props : any) {
         props.className,
       )}
     >
-      <Typography>{props.children}</Typography>
+      <Typography >{props.children}</Typography>
     </div>
   );
 }
